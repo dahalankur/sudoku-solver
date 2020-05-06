@@ -76,6 +76,12 @@ int main (int argc, char **argv) {
 }
 
 
+
+/*  function setGrid
+    parameters: istream &infile - the file stream to read from
+    returns: nothing
+    does: initializes the board to the state specified in the file 
+*/
 void setGrid(istream &infile) {
     int value = -1;
     for (int i = 0; i < ROWS; ++i) {
