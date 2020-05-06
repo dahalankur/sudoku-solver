@@ -5,8 +5,10 @@
  * Date: 05/05/2020
 */
 
+
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std; 
 
@@ -38,11 +40,22 @@ bool valueInColumn(int col, int value);
 bool valueInSquare(int row, int col, int value);
 bool canFindNextEmptySpot(int &row, int &col);
 bool solveSudoku(int row, int col);
+void setGrid(istream &infile);
 /* end of function declarations */
 
 
 int main (int argc, char **argv) {
-    (void) argc; (void) argv; // TODO: remove these
+    if (argc == 2) { /* take input from file */
+        string filename = argv[1];
+        ifstream infile(filename.c_str());
+        if (infile.fail()) {
+            cerr << "Cannot read the file " + filename + "\n";
+            exit(1);
+        }
+        setGrid(infile);
+        infile.close();
+    }
+    
     if (not isGridValid()) {
         cerr << "The entered grid is invalid." << 
                 " Please check the input and try again.\n";
@@ -60,6 +73,17 @@ int main (int argc, char **argv) {
     }
 
     return 0;
+}
+
+
+void setGrid(istream &infile) {
+    int value = -1;
+    for (int i = 0; i < ROWS; ++i) {
+        for (int j = 0; j < COLUMNS; ++j) {
+            infile >> value;
+            grid[i][j] = value;
+        }
+    }
 }
 
 
