@@ -1,6 +1,6 @@
 # sudoku-solver
 A C++ sudoku solver
-By Ankur Dahal
+By Ankur Dahal \n
 
 This is a sudoku solver written in C++. To compile and run the program, type
             * make sudoku *
