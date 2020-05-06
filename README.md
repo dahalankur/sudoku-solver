@@ -11,14 +11,15 @@ where <strong>filename</strong> is a text file that contains the board state, in
 <br />
 <h5>inputBoard.txt</h5>
 
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      2 0 0 0 0 0 0 0 1 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
-<code>      1 2 0 0 0 0 0 0 5 <br /> </code> <br />
+<code>      9 0 0 0 0 0 0 0 1  </code> <br />
+<code>      0 0 0 0 5 0 0 0 0  </code> <br />
+<code>      0 0 0 0 4 0 0 0 0  </code> <br />
+<code>      0 0 0 0 3 0 0 0 0  </code> <br />
+<code>      0 0 0 9 1 0 0 0 0  </code> <br />
+<code>      0 0 0 0 0 0 0 0 0  </code> <br />
+<code>      0 0 0 0 0 0 0 0 0  </code> <br />
+<code>      0 9 0 0 0 0 0 0 0  </code> <br />
+<code>      5 0 0 0 0 0 0 0 9  </code> <br />
+<br />
 <br />
 where 0 indicates an empty spot in the sudoku grid.
