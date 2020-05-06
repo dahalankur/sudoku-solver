@@ -1,3 +1,10 @@
+/*
+ * sudoku.cpp
+ * A C++ sudoku solver
+ * Author: Ankur Dahal
+ * Date: 05/05/2020
+*/
+
 #include <iostream>
 #include <string>
 
