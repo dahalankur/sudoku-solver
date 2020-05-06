@@ -3,7 +3,7 @@ A C++ sudoku solver
 By Ankur Dahal <br />
 
 This is a sudoku solver written in C++. To compile and run the program, type <br />
-            <strong> make sudoku </strong> && <strong>
+            <strong> make sudoku </strong> followed by <strong>
              ./sudoku    </strong> <br />
 If you want to provide the board input to the program through a text file, use <br />
            <strong> # ./sudoku filename  </strong>
