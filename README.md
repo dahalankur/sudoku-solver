@@ -13,13 +13,12 @@ where <strong>filename</strong> is a text file that contains the board state, in
 
 <code>      9 0 0 0 0 0 0 0 1  </code> <br />
 <code>      0 0 0 0 5 0 0 0 0  </code> <br />
-<code>      0 0 0 0 4 0 0 0 0  </code> <br />
+<code>      8 0 0 0 4 0 0 0 0  </code> <br />
 <code>      0 0 0 0 3 0 0 0 0  </code> <br />
 <code>      0 0 0 9 1 0 0 0 0  </code> <br />
-<code>      0 0 0 0 0 0 0 0 0  </code> <br />
-<code>      0 0 0 0 0 0 0 0 0  </code> <br />
-<code>      0 9 0 0 0 0 0 0 0  </code> <br />
-<code>      5 0 0 0 0 0 0 0 9  </code> <br />
-<br />
+<code>      0 2 0 0 0 0 0 0 0  </code> <br />
+<code>      0 0 0 0 0 0 0 0 8  </code> <br />
+<code>      0 9 0 0 6 0 0 0 0  </code> <br />
+<code>      5 0 0 0 0 1 0 0 9  </code> <br />
 <br />
 where 0 indicates an empty spot in the sudoku grid.
